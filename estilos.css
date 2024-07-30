@@ -1,0 +1,125 @@
+*{margin: 0; padding: 0;}
+body{
+    background-color: black;
+    
+    text-align: center;
+    }
+ #LOGO{
+    width: 1025px;
+    height: 1014px;
+    /*Manecillas del reloj arriba, derecha,abajo,izquierda*/
+    margin: 250px 0px 100px 0px;
+    
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3.8em;
+    font-weight: 700;
+    width: 961px;
+    color: white;
+    margin: 0px auto
+}
+
+div#contenedor{
+    width: 1125px;
+    height: 2436px;
+    background-image: url("Imagenes/FondoImagenInicio.png");
+    background-size: cover;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    
+}
+div#contenedor2{
+    width: 1125px;
+    height: 2436px;
+    background-size: cover;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+
+
+p#saludo{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 2.7em;
+    color: white;
+    width: 797px;
+    margin: 70px auto;
+}
+
+p#botonEntrar{
+    background-color: #6c6c6c;
+    width: 600px;
+    
+    border-radius: 30px;
+    padding: 50px 9.5px;
+    margin: 0px auto;
+}
+a#botonInicio{
+    font-family: 'Montserrat';
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+/*-----------------------------INICIA ESTILO DEL PERFIL ----------------------*/
+header#Header_perfil{
+    background-image: url(Imagenes/fondoHeader.png);
+    height: 826px;
+    width: 1125px;
+    
+}
+header#Header_perfil h1{
+    font-family: 'Montserrat';
+    font-size: 8em;
+    font-weight: 50;
+    color: white;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.neon{
+    color: white;
+    text-shadow: 
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff;
+        
+}
+nav a {
+    font-family: 'Montserrat';
+    font-size: 3.1em;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    margin: 0px 30px;
+}
+nav a:hover{
+    color: white;
+    text-shadow: 
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff;
+}
+nav {padding: 0px 0px;}
+section{margin-top:150px}
+section#acercade h2{
+    font-family: 'Montserrat';
+    font-size: 3.5em;
+    font-weight: 50;
+    color: white;
+    
+}
+section#acercade p{font-family: 'Montserrat';
+    font-size: 2.5em;
+    font-weight: 200;
+    color: white;
+    text-align: justify;
+    padding: 0px 100px;
+    margin-top: 80px;
+}
